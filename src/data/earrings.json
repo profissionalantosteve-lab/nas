@@ -1,0 +1,29 @@
+[
+	{
+		"id": "hoop_gold",
+		"name": "Hoop Gold",
+		"file": "/earrings/hoop_gold.png",
+		"anchorX": 0.50,
+		"anchorY": 0.18,
+		"scaleFactor": 0.55,
+		"rotOffsetDeg": 0
+	},
+	{
+		"id": "stud_pearl",
+		"name": "Pearl Stud",
+		"file": "/earrings/stud_pearl.png",
+		"anchorX": 0.50,
+		"anchorY": 0.50,
+		"scaleFactor": 0.18,
+		"rotOffsetDeg": 0
+	},
+	{
+		"id": "drop_silver",
+		"name": "Drop Silver",
+		"file": "/earrings/drop_silver.png",
+		"anchorX": 0.50,
+		"anchorY": 0.12,
+		"scaleFactor": 0.70,
+		"rotOffsetDeg": 0
+	}
+]
