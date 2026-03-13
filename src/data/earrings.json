@@ -1,29 +1,29 @@
 [
-	{
-		"id": "hoop_gold",
-		"name": "Hoop Gold",
-		"file": "/earrings/hoop_gold.png",
-		"anchorX": 0.50,
-		"anchorY": 0.18,
-		"scaleFactor": 0.55,
-		"rotOffsetDeg": 0
-	},
-	{
-		"id": "stud_pearl",
-		"name": "Pearl Stud",
-		"file": "/earrings/stud_pearl.png",
-		"anchorX": 0.50,
-		"anchorY": 0.50,
-		"scaleFactor": 0.18,
-		"rotOffsetDeg": 0
-	},
-	{
-		"id": "drop_silver",
-		"name": "Drop Silver",
-		"file": "/earrings/drop_silver.png",
-		"anchorX": 0.50,
-		"anchorY": 0.12,
-		"scaleFactor": 0.70,
-		"rotOffsetDeg": 0
-	}
+  {
+    "id": "hoop_gold",
+    "name": "Hoop (demo)",
+    "file": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'><circle cx='150' cy='170' r='85' fill='none' stroke='%23d4af37' stroke-width='18'/><circle cx='150' cy='85' r='10' fill='%23d4af37'/></svg>",
+    "anchorX": 0.50,
+    "anchorY": 0.22,
+    "scaleFactor": 0.55,
+    "rotOffsetDeg": 0
+  },
+  {
+    "id": "stud_pearl",
+    "name": "Stud (demo)",
+    "file": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'><circle cx='110' cy='110' r='36' fill='%23ffffff' stroke='%23cccccc' stroke-width='8'/></svg>",
+    "anchorX": 0.50,
+    "anchorY": 0.50,
+    "scaleFactor": 0.22,
+    "rotOffsetDeg": 0
+  },
+  {
+    "id": "drop_silver",
+    "name": "Drop (demo)",
+    "file": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='420' viewBox='0 0 260 420'><circle cx='130' cy='60' r='18' fill='%23c0c0c0'/><path d='M130 90 C80 150, 80 260, 130 330 C180 260, 180 150, 130 90 Z' fill='none' stroke='%23c0c0c0' stroke-width='16'/></svg>",
+    "anchorX": 0.50,
+    "anchorY": 0.14,
+    "scaleFactor": 0.70,
+    "rotOffsetDeg": 0
+  }
 ]

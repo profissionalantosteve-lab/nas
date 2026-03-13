@@ -1,8 +1,10 @@
 import React, { useMemo, useState } from "react";
+
 import Upload from "./components/Upload.jsx";
 import EarringGallery from "./components/EarringGallery.jsx";
 import PreviewCanvas from "./components/PreviewCanvas.jsx";
 import DebugOverlay from "./components/DebugOverlay.jsx";
+
 import earringsData from "./data/earrings.json";
 import { exportCanvasToDownload } from "./utils/render.js";
 
@@ -36,16 +38,26 @@ export default function App() {
       <div style={styles.layout}>
         <div style={styles.left}>
           <Upload onFile={setFile} />
+
           <div style={{ height: 12 }} />
+
           <EarringGallery
             earrings={earringsData}
             selectedId={selectedId}
             onSelect={setSelectedId}
           />
-          <div style={{ height: 12 }} />
-          <DebugOverlay debug={debug} setDebug={setDebug} side={side} setSide={setSide} />
 
           <div style={{ height: 12 }} />
+
+          <DebugOverlay
+            debug={debug}
+            setDebug={setDebug}
+            side={side}
+            setSide={setSide}
+          />
+
+          <div style={{ height: 12 }} />
+
           <button
             onClick={onDownload}
             disabled={!canvasRef || !lastFaceOk}
@@ -58,7 +70,8 @@ export default function App() {
           </button>
 
           <div style={styles.footerNote}>
-            If placement is slightly off, switch side and try a clearer selfie (front-facing, good light).
+            Dica: foto com boa luz, rosto quase de frente. Se ficar torto, troca o
+            lado (Left/Right).
           </div>
         </div>
 
@@ -113,4 +126,3 @@ const styles = {
   },
   footerNote: { marginTop: 10, fontSize: 12, color: "#666", lineHeight: 1.35 }
 };
-// ...existing code...
